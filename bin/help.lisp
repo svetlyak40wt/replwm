@@ -9,7 +9,7 @@
 
 (defun show-line-help (line)
   "Take a line in the Makefile and display an appropriate help message."
-  (let* ((sep (or (search ": ##" line) (return-from show-line-help)))
+  (let* ((sep (or (search ": ## " line) (return-from show-line-help)))
          (command (subseq line 0 sep))
          (help (subseq line (+ sep 5) (length line))))
     (write-yellow command)
