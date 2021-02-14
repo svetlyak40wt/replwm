@@ -12,7 +12,7 @@ help: ## Display this help message and then exit.
 
 .PHONY: test-tests
 test-tests:
-	@ cd src/repl-test && sbcl \
+	@ cd src/wm-test && sbcl \
 		--noinform \
 		--load wm-test-check-lib.lisp \
 		--non-interactive
