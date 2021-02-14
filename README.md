@@ -11,3 +11,6 @@ You'll need:
 - Xephyr (for experimenting)
 
 Use `make xrepl` to spin up an X-Server inside this one which you can use to develop.
+
+## Testing
+

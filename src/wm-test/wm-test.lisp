@@ -1,6 +1,8 @@
-(defpackage #:repl-test
+(defpackage #:wm-test
   (:use #:common-lisp)
   (:export #:xtest #:test #:defsuite #:run-suites #:run-suites-and-exit))
+
+(in-package #:wm-test)
 
 (defmacro xtest-values (exp)
   (declare (ignore exp))
