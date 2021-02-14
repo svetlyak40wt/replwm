@@ -1,8 +1,6 @@
 (defpackage #:repl-test
   (:use #:common-lisp)
-  (:export #:main))
-
-(defun main () (values))
+  (:export #:test #:xtest #:check #:xcheck))
 
 (defmacro xtest (exp)
   (declare (ignore exp))
