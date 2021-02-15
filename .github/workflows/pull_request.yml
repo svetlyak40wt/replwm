@@ -13,6 +13,7 @@ jobs:
       run: |
         curl -LJ0 https://github.com/roswell/sbcl_bin/releases/download/2.1.1/sbcl-2.1.1-x86-64-linux-binary.tar.bz2 > sbcl.tar.bz2
         tar -xvf sbcl.tar.bz2
-        cd sbcl-2.1.1-x86-64-linux
-        sh ./install.sh
+        sudo sh sbcl-2.1.1-x86-64-linux/install.sh
+        # cd sbcl-2.1.1-x86-64-linux
+        # sudo sh ./install.sh
 
