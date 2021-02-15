@@ -1,4 +1,4 @@
-(in-package #:repl-wm-tests)
+(in-package #:replwm-tests)
 
 (defun check-forever ()
   (let ((el 5))
