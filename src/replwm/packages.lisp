@@ -1,6 +1,6 @@
-(defpackage #:repl-wm
+(defpackage #:replwm
   (:use #:common-lisp)
   (:export #:forever))
 
-(defpackage #:repl-wm-tests
-  (:use #:common-lisp #:repl-wm #:wm-test))
+(defpackage #:replwm-tests
+  (:use #:common-lisp #:replwm #:wm-test))
