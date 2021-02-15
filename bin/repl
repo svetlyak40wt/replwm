@@ -1,0 +1,9 @@
+#!/bin/sh
+rlwrap sbcl \
+  --noinform \
+  --load src/repl-wm/system.lisp \
+  --load src/repl-wm/repl-wm.asd \
+  --load src/repl-wm/packages.lisp \
+  --load src/repl-wm/repl-wm.lisp \
+  --load src/repl-wm/repl-wm-test.lisp \
+  "$@"
