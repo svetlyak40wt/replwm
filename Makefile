@@ -9,3 +9,10 @@ xrepl: ## Open Xephyr in display :1 and a shell for running programs there.
 .PHONY: help
 help: ## Display this help message and then exit.
 	@ sbcl --script bin/help.lisp
+
+.PHONY: test-tests
+test-tests:
+	@ cd src/wm-test && sbcl \
+		--noinform \
+		--load wm-test-check-lib.lisp \
+		--non-interactive
