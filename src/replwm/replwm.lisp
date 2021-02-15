@@ -1,4 +1,4 @@
-(in-package #:repl-wm)
+(in-package #:replwm)
 
 (defmacro forever (&body code)
   `(do () (nil) ,@code))
