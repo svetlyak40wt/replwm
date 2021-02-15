@@ -17,5 +17,5 @@ jobs:
         sudo sh install.sh
         cd ..
         rm -rf sbcl-2.1.1-x86-64-linux
-        # sudo sh ./install.sh
-
+    - name: Test Testing Library
+      run: make test-tests
