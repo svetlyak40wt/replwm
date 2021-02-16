@@ -1,6 +1,12 @@
 # replwm
 A hackable X11 window manager written in Common LISP.
 
+## Why it is different from [StumpWM](https://github.com/stumpwm/stumpwm)
+
+- one
+- two
+- three
+
 ## Developing
 You'll need:
 - sbcl
